@@ -1,0 +1,4 @@
+GET http://localhost:3000/checkouts
+
+###
+GET http://localhost:3000/checkouts/1
