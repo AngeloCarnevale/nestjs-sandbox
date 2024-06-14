@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../sample-analytics"
+		},
+		{
+			"path": "../sample-communication"
+		}
+	],
+	"settings": {}
+}
