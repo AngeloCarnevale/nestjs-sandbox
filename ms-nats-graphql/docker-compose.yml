@@ -25,3 +25,11 @@ services:
     image: nats
     ports:
       - "4222:4222"
+  
+  db:
+    image: mysql:8.0.30-debian
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=my-db

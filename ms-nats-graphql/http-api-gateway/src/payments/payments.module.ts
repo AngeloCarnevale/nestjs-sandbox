@@ -1,10 +1,10 @@
 import { Module } from "@nestjs/common";
-import { UsersController } from "./users.controller";
 import { NatsClientModule } from "src/nats-client/nats-client.module";
+import { PaymentsController } from "./payments.controller";
 
 @Module({
     imports: [NatsClientModule],
-    controllers: [UsersController],
+    controllers: [PaymentsController],
     providers: []
 })
-export class UsersModule { }
+export class PaymentsModule { }
