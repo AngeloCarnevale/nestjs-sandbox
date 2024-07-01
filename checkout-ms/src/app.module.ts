@@ -8,6 +8,7 @@ import {
   CheckoutItem,
   CheckoutProduct,
 } from './checkouts/entities/checkout.entity';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -23,6 +24,7 @@ import {
       logging: true,
     }),
     CheckoutsModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [AppService],
